@@ -37,3 +37,56 @@ May 12 00:51:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT 
 May 12 00:51:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
 May 12 00:51:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 May 12 00:51:40 symfony [info] {sfWebResponse} Send content (17361 o)
+May 13 01:00:28 symfony [info] {sfPatternRouting} Match route "acceso_usuario" (/usuario.:sf_format) for /usuario with parameters array (  'module' => 'usuario',  'action' => 'index',  'sf_format' => 'html',)
+May 13 01:00:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 13 01:00:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 13 01:00:28 symfony [info] {usuarioActions} Call "usuarioActions->executeIndex()"
+May 13 01:00:28 symfony [info] {myUser} User is not authenticated
+May 13 01:00:28 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/apps/acceso/modules/usuario/templates/indexSuccess.php"
+May 13 01:00:28 symfony [info] {sfPHPView} Decorate content with "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 13 01:00:28 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 13 01:00:33 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+May 13 01:00:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.id_externo AS o__id_externo, o.codigo_unidad AS o__codigo_unidad, o.padre_id AS o__padre_id, o.unidad_tipo_id AS o__unidad_tipo_id, o.nombre AS o__nombre, o.nombre_reducido AS o__nombre_reducido, o.siglas AS o__siglas, o.adscripcion AS o__adscripcion, o.estado_id AS o__estado_id, o.municipio_id AS o__municipio_id, o.parroquia_id AS o__parroquia_id, o.dir_av_calle_esq AS o__dir_av_calle_esq, o.dir_edf_torre_anexo AS o__dir_edf_torre_anexo, o.dir_piso AS o__dir_piso, o.dir_oficina AS o__dir_oficina, o.dir_urbanizacion AS o__dir_urbanizacion, o.dir_ciudad AS o__dir_ciudad, o.dir_punto_referencia AS o__dir_punto_referencia, o.telf_uno AS o__telf_uno, o.telf_dos AS o__telf_dos, o.f_ingreso AS o__f_ingreso, o.f_retiro AS o__f_retiro, o.motivo_retiro AS o__motivo_retiro, o.orden_automatico AS o__orden_automatico, o.orden_preferencial AS o__orden_preferencial, o.status AS o__status, o.id_update AS o__id_update, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM organigrama.unidad o WHERE (o.id = ?) LIMIT 1 - (1)
+May 13 01:00:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 13 01:00:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 13 01:00:33 symfony [info] {sfWebResponse} Send content (17361 o)
+May 14 22:49:53 symfony [info] {sfPatternRouting} Match route "acceso_usuario" (/usuario.:sf_format) for /usuario with parameters array (  'module' => 'usuario',  'action' => 'index',  'sf_format' => 'html',)
+May 14 22:49:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 14 22:49:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 14 22:49:54 symfony [info] {usuarioActions} Call "usuarioActions->executeIndex()"
+May 14 22:49:54 symfony [info] {myUser} User is not authenticated
+May 14 22:49:54 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/apps/acceso/modules/usuario/templates/indexSuccess.php"
+May 14 22:49:54 symfony [info] {sfPHPView} Decorate content with "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 14 22:49:54 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 14 22:49:58 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+May 14 22:49:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.id_externo AS o__id_externo, o.codigo_unidad AS o__codigo_unidad, o.padre_id AS o__padre_id, o.unidad_tipo_id AS o__unidad_tipo_id, o.nombre AS o__nombre, o.nombre_reducido AS o__nombre_reducido, o.siglas AS o__siglas, o.adscripcion AS o__adscripcion, o.estado_id AS o__estado_id, o.municipio_id AS o__municipio_id, o.parroquia_id AS o__parroquia_id, o.dir_av_calle_esq AS o__dir_av_calle_esq, o.dir_edf_torre_anexo AS o__dir_edf_torre_anexo, o.dir_piso AS o__dir_piso, o.dir_oficina AS o__dir_oficina, o.dir_urbanizacion AS o__dir_urbanizacion, o.dir_ciudad AS o__dir_ciudad, o.dir_punto_referencia AS o__dir_punto_referencia, o.telf_uno AS o__telf_uno, o.telf_dos AS o__telf_dos, o.f_ingreso AS o__f_ingreso, o.f_retiro AS o__f_retiro, o.motivo_retiro AS o__motivo_retiro, o.orden_automatico AS o__orden_automatico, o.orden_preferencial AS o__orden_preferencial, o.status AS o__status, o.id_update AS o__id_update, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM organigrama.unidad o WHERE (o.id = ?) LIMIT 1 - (1)
+May 14 22:49:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 14 22:49:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 14 22:49:58 symfony [info] {sfWebResponse} Send content (17361 o)
+May 14 23:09:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/login with parameters array (  'module' => 'usuario',  'action' => 'login',)
+May 14 23:09:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 14 23:09:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 14 23:09:41 symfony [info] {usuarioActions} Call "usuarioActions->executeLogin()"
+May 14 23:09:41 symfony [info] {myUser} User is not authenticated
+May 14 23:09:41 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+May 14 23:09:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.usuario_enlace_id AS a__usuario_enlace_id, a.enlace_id AS a__enlace_id, a.nombre AS a__nombre, a.ldap AS a__ldap, a.clave AS a__clave, a.clave_temporal AS a__clave_temporal, a.visitas AS a__visitas, a.ultimaconexion AS a__ultimaconexion, a.ultimo_status AS a__ultimo_status, a.ultimocambioclave AS a__ultimocambioclave, a.tema AS a__tema, a.acceso_global AS a__acceso_global, a.status AS a__status, a.id_update AS a__id_update, a.ip_update AS a__ip_update, a.ip AS a__ip, a.pc AS a__pc, a.puerta AS a__puerta, a.so AS a__so, a.agente AS a__agente, a.variables_entorno AS a__variables_entorno, a.created_at AS a__created_at, a.updated_at AS a__updated_at FROM acceso.usuario a WHERE (a.nombre = ? AND a.clave = ?) LIMIT 1 - (, $1$bkUGtuEy$uXRuqOe2yGYOe8zCXNNs90)
+May 14 23:16:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/login with parameters array (  'module' => 'usuario',  'action' => 'login',)
+May 14 23:16:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 14 23:16:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 14 23:16:28 symfony [info] {usuarioActions} Call "usuarioActions->executeLogin()"
+May 14 23:16:28 symfony [info] {myUser} User is not authenticated
+May 14 23:16:31 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+May 14 23:16:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.usuario_enlace_id AS a__usuario_enlace_id, a.enlace_id AS a__enlace_id, a.nombre AS a__nombre, a.ldap AS a__ldap, a.clave AS a__clave, a.clave_temporal AS a__clave_temporal, a.visitas AS a__visitas, a.ultimaconexion AS a__ultimaconexion, a.ultimo_status AS a__ultimo_status, a.ultimocambioclave AS a__ultimocambioclave, a.tema AS a__tema, a.acceso_global AS a__acceso_global, a.status AS a__status, a.id_update AS a__id_update, a.ip_update AS a__ip_update, a.ip AS a__ip, a.pc AS a__pc, a.puerta AS a__puerta, a.so AS a__so, a.agente AS a__agente, a.variables_entorno AS a__variables_entorno, a.created_at AS a__created_at, a.updated_at AS a__updated_at FROM acceso.usuario a WHERE (a.nombre = ? AND a.clave = ?) LIMIT 1 - (, $1$Sz.0zDnL$svenejBJcRLRw39ah1u/C0)
+May 14 23:17:22 symfony [info] {sfPatternRouting} Match route "acceso_usuario" (/usuario.:sf_format) for /usuario with parameters array (  'module' => 'usuario',  'action' => 'index',  'sf_format' => 'html',)
+May 14 23:17:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 14 23:17:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 14 23:17:22 symfony [info] {usuarioActions} Call "usuarioActions->executeIndex()"
+May 14 23:17:22 symfony [info] {myUser} User is not authenticated
+May 14 23:17:22 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/apps/acceso/modules/usuario/templates/indexSuccess.php"
+May 14 23:17:22 symfony [info] {sfPHPView} Decorate content with "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 14 23:17:22 symfony [info] {sfPHPView} Render "/var/www/html/siglas-mppp/web/templates/layout.php"
+May 14 23:17:28 symfony [info] {Doctrine_Connection_Pgsql} exec : SET NAMES 'UTF8' - ()
+May 14 23:17:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.id_externo AS o__id_externo, o.codigo_unidad AS o__codigo_unidad, o.padre_id AS o__padre_id, o.unidad_tipo_id AS o__unidad_tipo_id, o.nombre AS o__nombre, o.nombre_reducido AS o__nombre_reducido, o.siglas AS o__siglas, o.adscripcion AS o__adscripcion, o.estado_id AS o__estado_id, o.municipio_id AS o__municipio_id, o.parroquia_id AS o__parroquia_id, o.dir_av_calle_esq AS o__dir_av_calle_esq, o.dir_edf_torre_anexo AS o__dir_edf_torre_anexo, o.dir_piso AS o__dir_piso, o.dir_oficina AS o__dir_oficina, o.dir_urbanizacion AS o__dir_urbanizacion, o.dir_ciudad AS o__dir_ciudad, o.dir_punto_referencia AS o__dir_punto_referencia, o.telf_uno AS o__telf_uno, o.telf_dos AS o__telf_dos, o.f_ingreso AS o__f_ingreso, o.f_retiro AS o__f_retiro, o.motivo_retiro AS o__motivo_retiro, o.orden_automatico AS o__orden_automatico, o.orden_preferencial AS o__orden_preferencial, o.status AS o__status, o.id_update AS o__id_update, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM organigrama.unidad o WHERE (o.id = ?) LIMIT 1 - (1)
+May 14 23:17:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 14 23:17:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 14 23:17:28 symfony [info] {sfWebResponse} Send content (17541 o)
