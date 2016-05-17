@@ -17,20 +17,20 @@ class ProjectConfiguration extends sfProjectConfiguration
     
     sfConfig::set('sf_entorno', '_dev');
     sfConfig::set('sf_app_template_dir', sfConfig::get('sf_root_dir').DIRECTORY_SEPARATOR.'web/templates');
-    sfConfig::set('sf_admin_module_web_dir', '..');
+    sfConfig::set('sf_admin_module_web_dir', '/');
     
-    sfConfig::set('sf_app_acceso_url', 'siglas-mppp/web/acceso'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_archivo_url', 'siglas-mppp/web/archivo'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_organigrama_url', 'siglas-mppp/web/organigrama'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_correspondencia_url', 'siglas-mppp/web/correspondencia'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_funcionarios_url', 'siglas-mppp/web/funcionarios'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_herramientas_url', 'siglas-mppp/web/herramientas'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_rrhh_url', 'siglas-mppp/web/rrhh'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_inventario_url', 'siglas-mppp/web/inventario'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_proveedores_url', 'siglas-mppp/web/proveedores'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_seguridad_url', 'siglas-mppp/web/seguridad'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_comunicaciones_url', 'siglas-mppp/web/comunicaciones'.sfConfig::get('sf_entorno').'.php/');
-    sfConfig::set('sf_app_vehiculos_url', 'siglas-mppp/web/vehiculos'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_acceso_url', '/acceso'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_archivo_url', '/archivo'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_organigrama_url', '/organigrama'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_correspondencia_url', '/correspondencia'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_funcionarios_url', '/funcionarios'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_herramientas_url', '/herramientas'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_rrhh_url', '/rrhh'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_inventario_url', '/inventario'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_proveedores_url', '/proveedores'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_seguridad_url', '/seguridad'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_comunicaciones_url', '/comunicaciones'.sfConfig::get('sf_entorno').'.php/');
+    sfConfig::set('sf_app_vehiculos_url', '/vehiculos'.sfConfig::get('sf_entorno').'.php/');
 
     $this->enablePlugins('sfDoctrinePlugin');
     $this->enablePlugins('sfDependentSelectPlugin');

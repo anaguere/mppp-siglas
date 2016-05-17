@@ -497,7 +497,7 @@ class usuarioActions extends autoUsuarioActions
         }
         
         // ########### AUTENTICACION LDAP ############
-        if(($sf_autenticacion['metodo']=='ldap' || $sf_autenticacion['metodo']=='ambos') && ($usuario_session == '')){
+        /*if(($sf_autenticacion['metodo']=='ldap' || $sf_autenticacion['metodo']=='ambos') && ($usuario_session == '')){
             // ########### VERIFICAR CONEXION LDAP ############
             $ds = ldap_connect($sf_autenticacion['parametros_ldap']['url']);
             if (!$ds) {
@@ -542,7 +542,7 @@ class usuarioActions extends autoUsuarioActions
             }
             
             $metodo_ingreso = 'ldap';
-        }
+        }*/
 
         // ########### SI EL USUARIO FUE ENCONTRADO ############
         if($usuario_session)
